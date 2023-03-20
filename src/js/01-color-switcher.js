@@ -4,8 +4,8 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
-bntStartEl = document.querySelector('[data-start]');
-bntStopEl = document.querySelector('[data-stop]');
+const bntStartEl = document.querySelector('[data-start]');
+const bntStopEl = document.querySelector('[data-stop]');
 
 bntStartEl.addEventListener('click', handleBtnStartClick);
 bntStopEl.addEventListener('click', handleBtnStopClick);
